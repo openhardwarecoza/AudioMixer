@@ -19881,10 +19881,10 @@ LED</description>
 <part name="D7" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="DO34-7" package3d_urn="urn:adsk.eagle:package:43364/1" value="Z5.1"/>
 <part name="D8" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="DO34-7" package3d_urn="urn:adsk.eagle:package:43364/1" value="Z5.1"/>
 <part name="IC9" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="TLC339" device="P" package3d_urn="urn:adsk.eagle:package:16407/2"/>
-<part name="R33" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_EU-" device="B25P" package3d_urn="urn:adsk.eagle:package:22684/1" value="100klog"/>
-<part name="R34" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_EU-" device="B25P" package3d_urn="urn:adsk.eagle:package:22684/1" value="100klog"/>
-<part name="R35" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_EU-" device="B25P" package3d_urn="urn:adsk.eagle:package:22684/1" value="100klog"/>
-<part name="R36" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_EU-" device="B25P" package3d_urn="urn:adsk.eagle:package:22684/1" value="100klog"/>
+<part name="R33" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_EU-" device="B25P" package3d_urn="urn:adsk.eagle:package:22684/1"/>
+<part name="R34" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_EU-" device="B25P" package3d_urn="urn:adsk.eagle:package:22684/1"/>
+<part name="R35" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_EU-" device="B25P" package3d_urn="urn:adsk.eagle:package:22684/1"/>
+<part name="R36" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_EU-" device="B25P" package3d_urn="urn:adsk.eagle:package:22684/1"/>
 <part name="R37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="330"/>
 <part name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E5-6" package3d_urn="urn:adsk.eagle:package:23368/1" value="100U"/>
 <part name="SUPPLY29" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -20486,13 +20486,13 @@ LED</description>
 <attribute name="NAME" x="81.9658" y="-415.163" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="87.122" y="-415.163" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="IC8" gate="A" x="175.26" y="-238.76" smashed="yes">
-<attribute name="NAME" x="177.8" y="-235.585" size="1.778" layer="95"/>
-<attribute name="VALUE" x="177.8" y="-243.84" size="1.778" layer="96"/>
-</instance>
-<instance part="IC4" gate="A" x="175.26" y="-81.28" smashed="yes">
+<instance part="IC2" gate="B" x="175.26" y="-81.28" smashed="yes">
 <attribute name="NAME" x="177.8" y="-78.105" size="1.778" layer="95"/>
 <attribute name="VALUE" x="177.8" y="-86.36" size="1.778" layer="96"/>
+</instance>
+<instance part="IC6" gate="B" x="175.26" y="-238.76" smashed="yes">
+<attribute name="NAME" x="177.8" y="-235.585" size="1.778" layer="95"/>
+<attribute name="VALUE" x="177.8" y="-243.84" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -21018,7 +21018,7 @@ LED</description>
 <wire x1="165.1" y1="-78.74" x2="165.1" y2="-66.04" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="-66.04" x2="162.56" y2="-66.04" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="1"/>
-<pinref part="IC4" gate="A" pin="+IN"/>
+<pinref part="IC2" gate="B" pin="+IN"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -21035,7 +21035,7 @@ LED</description>
 <wire x1="157.48" y1="-81.28" x2="157.48" y2="-83.82" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="-83.82" x2="167.64" y2="-83.82" width="0.1524" layer="91"/>
 <junction x="157.48" y="-83.82"/>
-<pinref part="IC4" gate="A" pin="-IN"/>
+<pinref part="IC2" gate="B" pin="-IN"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -21272,7 +21272,7 @@ LED</description>
 <wire x1="165.1" y1="-236.22" x2="165.1" y2="-223.52" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="-223.52" x2="162.56" y2="-223.52" width="0.1524" layer="91"/>
 <pinref part="R31" gate="G$1" pin="1"/>
-<pinref part="IC8" gate="A" pin="+IN"/>
+<pinref part="IC6" gate="B" pin="+IN"/>
 </segment>
 </net>
 <net name="N$39" class="0">
@@ -21289,7 +21289,7 @@ LED</description>
 <wire x1="157.48" y1="-238.76" x2="157.48" y2="-241.3" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="-241.3" x2="167.64" y2="-241.3" width="0.1524" layer="91"/>
 <junction x="157.48" y="-241.3"/>
-<pinref part="IC8" gate="A" pin="-IN"/>
+<pinref part="IC6" gate="B" pin="-IN"/>
 </segment>
 </net>
 <net name="N$40" class="0">
@@ -21316,7 +21316,7 @@ LED</description>
 <wire x1="182.88" y1="-81.28" x2="203.2" y2="-81.28" width="0.1524" layer="91"/>
 <pinref part="JP4" gate="G$1" pin="2"/>
 <label x="185.42" y="-81.28" size="1.778" layer="95"/>
-<pinref part="IC4" gate="A" pin="OUT"/>
+<pinref part="IC2" gate="B" pin="OUT"/>
 <junction x="182.88" y="-81.28"/>
 </segment>
 </net>
@@ -21358,7 +21358,7 @@ LED</description>
 <wire x1="182.88" y1="-238.76" x2="203.2" y2="-238.76" width="0.1524" layer="91"/>
 <pinref part="JP8" gate="G$1" pin="2"/>
 <label x="185.42" y="-238.76" size="1.778" layer="95"/>
-<pinref part="IC8" gate="A" pin="OUT"/>
+<pinref part="IC6" gate="B" pin="OUT"/>
 <junction x="182.88" y="-238.76"/>
 </segment>
 </net>
