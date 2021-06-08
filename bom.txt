@@ -1,0 +1,144 @@
+Partlist
+
+Exported from Mixer Console PCB.brd at 2021/04/04 20:23
+
+EAGLE Version 9.6.2 Copyright (c) 1988-2020 Autodesk, Inc.
+
+Assembly variant: 
+
+Part       Value                       Package                     Library                    Position (mm)         Orientation
+
+BASS1      100kLOG                     3RP/1610G                   pot                        (124 42.5)            R270
+C1         47u                         E5-6                        rcl                        (14 75)               R90
+C2         47u                         E5-6                        rcl                        (17 24.5)             R0
+C3         33pf                        C2.5-2                      capacitor-wima             (17 29.5)             R0
+C4         47pf                        C2.5-2                      capacitor-wima             (10 44.5)             R270
+C5         47pf                        C2.5-2                      capacitor-wima             (17 2)                R0
+C6         100PF                       C2.5-2                      capacitor-wima             (322 50)              R0
+C7         100N                        C2.5-2                      capacitor-wima             (322 43)              R0
+C8         1u                          C2.5-2                      capacitor-wima             (315 42)              R180
+C9         100P                        C2.5-2                      capacitor-wima             (315 38)              R180
+C10        3N3                         C2.5-2                      capacitor-wima             (321.1 4.3)           R270
+C11        47pf                        C2.5-2                      capacitor-wima             (151.5 46)            R0
+C12        47nf                        C2.5-2                      capacitor-wima             (124 32)              R180
+C13        560pF                       C2.5-2                      capacitor-wima             (137 59.5)            R0
+C14        47pf                        C2.5-2                      capacitor-wima             (151.5 28)            R0
+C29        47nf                        C2.5-2                      capacitor-wima             (131 32)              R180
+C30        560pF                       C2.5-2                      capacitor-wima             (137 62.5)            R0
+CON1       PCB-2M3                     PCB2-M3                     Screw Terminals            (60 75)               R90
+CON2       PCB-2M3                     PCB2-M3                     Screw Terminals            (60 5)                MR270
+CON3       PCB-2M3                     PCB2-M3                     Screw Terminals            (120 75)              R90
+CON4       PCB-2M3                     PCB2-M3                     Screw Terminals            (120 5)               R90
+CON5       PCB-2M3                     PCB2-M3                     Screw Terminals            (180 75)              R90
+CON6       PCB-2M3                     PCB2-M3                     Screw Terminals            (180 5)               R90
+CON7       PCB-2M3                     PCB2-M3                     Screw Terminals            (240 75)              R90
+CON8       PCB-2M3                     PCB2-M3                     Screw Terminals            (240 5)               R90
+CON9       PCB-2M3                     PCB2-M3                     Screw Terminals            (300 75)              R90
+CON10      PCB-2M3                     PCB2-M3                     Screw Terminals            (300 5)               R90
+CON11      PCB-2M3                     PCB2-M3                     Screw Terminals            (0 5)                 R90
+CON12      PCB-2M3                     PCB2-M3                     Screw Terminals            (0 75)                MR270
+D1         Z5.1                        DO34Z7                      diode                      (20.5 74)             R90
+D2         Z5.1                        DO34Z7                      diode                      (18.5 74)             R90
+EQIN2                                  1X03/90                     pinhead                    (149 66)              R270
+EQOUT2                                 1X03/90                     pinhead                    (149 4)               R270
+EQVOL1     100kLOG                     3RP/1610G                   pot                        (124 19)              R270
+FADER      100kLOG                     3RP/1610N                   pot                        (4 19)                R270
+FXGAIN     100kLOG                     3RP/1610N                   pot                        (304 42.5)            R270
+FXOUT1                                 1X03/90                     pinhead                    (329 4)               R270
+GAIN1      100kLOG                     3RP/1610N                   pot                        (3 42.5)              R270
+IC1        NE5532N                     DIL08                       linear                     (17 43.5)             R90
+IC2        NE5532N                     DIL08                       linear                     (17 11)               R90
+IC3        NE5532N                     DIL08                       linear                     (151.5 55)            R90
+IC4        NE5532N                     DIL08                       linear                     (246.9 39.2)          R270
+IC5        LM3915N                     DIL18                       national-semiconductor     (192.1 56)            R90
+IC6        NE5532N                     DIL08                       linear                     (318 21)              R270
+IC7        NE5532N                     DIL08                       linear                     (151.5 37)            R90
+J1         AUDIO_JACK_TRS_0.25"_PTH_RA AUDIO_JACK_0.25"_TRS_PTH_RA SparkFun-Connectors        (0 61)                R0
+J2         RCALOCK                     RCA_LOCK                    SparkFun-Connectors        (64 40)               R0
+J3         RCALOCK                     RCA_LOCK                    SparkFun-Connectors        (64 51.5)             R0
+J4         AUDIO_JACK_3.5MM_KIT        AUDIO-JACK-KIT              SparkFun-Connectors        (64.5 63.5)           R0
+J5         AUDIO_JACK_TRS_0.25"_PTH_RA AUDIO_JACK_0.25"_TRS_PTH_RA SparkFun-Connectors        (300 61)              R0
+LED1                                   LED3MM                      led                        (183 22)              R90
+LED2                                   LED3MM                      led                        (183 27)              R90
+LED3                                   LED3MM                      led                        (183 32)              R90
+LED4                                   LED3MM                      led                        (183 37)              R90
+LED5                                   LED3MM                      led                        (183 42)              R90
+LED6                                   LED3MM                      led                        (183 47)              R90
+LED7                                   LED3MM                      led                        (183 52)              R90
+LED8                                   LED3MM                      led                        (183 57)              R90
+LED9                                   LED3MM                      led                        (183 62)              R90
+LED10                                  LED3MM                      led                        (183 67)              R90
+LED11                                  LED3MM                      led                        (307 31)              R270
+LED12                                  LED3MM                      led                        (303 31)              R90
+LINE1                                  3RP/1610G                   pot                        (64 19)               R270
+LINEOUT    100kLOG                     3RP/1610G                   pot                        (244 19)              R270
+LINEOUT1                               1X03/90                     pinhead                    (89 4)                R270
+MIXER-OUT                              1X03/90                     pinhead                    (269 4)               R270
+MIXIN1                                 1X03/90                     pinhead                    (269 66)              R270
+MIXIN2                                 1X03/90                     pinhead                    (269 55)              R270
+MIXIN3                                 1X03/90                     pinhead                    (269 45)              R270
+MIXIN4                                 1X03/90                     pinhead                    (269 35)              R270
+MIXIN5                                 1X03/90                     pinhead                    (269 25)              R270
+MIXIN6                                 1X03/90                     pinhead                    (269 15)              R270
+POWERIN                                1X03/90                     pinhead                    (29 76)               R270
+POWERIN1                               1X03/90                     pinhead                    (149 76)              R270
+POWERIN2                               1X03/90                     pinhead                    (89 76)               R270
+POWERIN3                               1X03/90                     pinhead                    (269 76)              R270
+POWERIN4                               1X03/90                     pinhead                    (209 76)              R270
+POWERIN5                               1X03/90                     pinhead                    (329 76)              R270
+PREAMPOUT1                             1X03/90                     pinhead                    (29 4)                R270
+R1         22k                         0204/7                      rcl                        (26 57)               R270
+R2         1k                          0204/7                      rcl                        (17 34.5)             R180
+R3         20k                         0204/7                      rcl                        (17 32)               R180
+R4         1k                          0204/7                      rcl                        (17 37)               R0
+R5         4K7                         0204/7                      rcl                        (17 50)               R0
+R6         10k                         0204/7                      rcl                        (17 17.5)             R0
+R7         4K7                         0204/7                      rcl                        (17 20)               R0
+R8         10K                         0204/7                      rcl                        (17 4.5)              R180
+R9         1k2                         0207/10                     rcl                        (188.1 17.1)          R90
+R10        1K                          0204/7                      rcl                        (315 49)              R180
+R11        4K7                         0204/7                      rcl                        (246.5 29.3)          R0
+R12        10k                         0204/7                      rcl                        (259 69)              R0
+R13        10k                         0204/7                      rcl                        (259 58)              R0
+R14        10k                         0204/7                      rcl                        (259 48)              R0
+R15        10k                         0204/7                      rcl                        (259 38)              R0
+R16        10k                         0204/7                      rcl                        (259 28)              R0
+R17        10k                         0204/7                      rcl                        (259 18)              R0
+R18        10k                         0204/7                      rcl                        (247 49)              R0
+R19        4K7                         0204/7                      rcl                        (246.5 32.3)          R180
+R20        10k                         0204/7                      rcl                        (258 66)              R0
+R21        10k                         0204/7                      rcl                        (258 55)              R0
+R22        10k                         0204/7                      rcl                        (258 45)              R0
+R23        10k                         0204/7                      rcl                        (258 35)              R0
+R24        10k                         0204/7                      rcl                        (258 25)              R0
+R25        10k                         0204/7                      rcl                        (258 15)              R0
+R26        10k                         0204/7                      rcl                        (247 46)              R0
+R27        2M2                         0204/7                      rcl                        (322 47)              R180
+R28        1K                          0204/7                      rcl                        (322 40)              R180
+R29        220k                        0204/7                      rcl                        (318 14)              R180
+R30        4K7                         0204/7                      rcl                        (315 45)              R0
+R31        1K                          0204/7                      rcl                        (313 32)              R270
+R32        10k                         0204/7                      rcl                        (151.5 43.5)          R180
+R33        4K7                         0204/7                      rcl                        (157.5 55)            R270
+R34        22k                         0204/7                      rcl                        (137 47)              R0
+R35        22k                         0204/7                      rcl                        (137 37)              R180
+R36        22k                         0204/7                      rcl                        (137 42)              R0
+R37        10K                         0204/7                      rcl                        (151.5 48.5)          R180
+R38        22k                         0204/7                      rcl                        (137 44.5)            R0
+R39        22k                         0204/7                      rcl                        (137 34.5)            R180
+R40        22k                         0204/7                      rcl                        (137 39.5)            R0
+R41        10k                         0204/7                      rcl                        (137 65.5)            R0
+R42        10k                         0204/7                      rcl                        (137 54.5)            R180
+R43        4K7                         0204/7                      rcl                        (145.5 37)            R270
+R44        10k                         0204/7                      rcl                        (151.5 25.5)          R180
+R45        10k                         0204/7                      rcl                        (137 68)              R0
+R46        10k                         0204/7                      rcl                        (137 57)              R180
+R47        4K7                         0204/7                      rcl                        (145.8 55)            R270
+R48        4K7                         0204/7                      rcl                        (157.5 34.5)          R270
+R49        10K                         0204/7                      rcl                        (151.5 30.5)          R180
+TREB1      100kLOG                     3RP/1610G                   pot                        (124 61)              R270
+U$1        XKBENTERPRISESS-12D11G5R    XKBENTERPRISESS-12D11G5R    XKB Enterprise SS-12D11G5R (300 19)              R90
+U$2        XKBENTERPRISESS-12D11G5R    XKBENTERPRISESS-12D11G5R    XKB Enterprise SS-12D11G5R (210 53)              R270
+U$5        BOURNS 3362 100K            POT_B64W                    presetpot                  (181 14)              R90
+VU-IN                                  1X03/90                     pinhead                    (209 66)              R270
+VU-OUT                                 1X03/90                     pinhead                    (209 4)               R270
